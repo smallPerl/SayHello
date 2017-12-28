@@ -8,4 +8,9 @@ class SayHello
 	{
 		return 'hello world';
 	}
+
+    public function sayTwo()
+    {
+        return 'two';
+	}
 }
