@@ -1,0 +1,24 @@
+{
+    "name": "moresir/hello",
+    "description": "an example of composer package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "moresir",
+            "email": "moresir@foxmial.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Hello\\":"src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
