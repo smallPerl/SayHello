@@ -13,4 +13,9 @@ class SayHello
     {
         return 'two';
 	}
+
+    public function sayThree()
+    {
+        return 'three';
+	}
 }
